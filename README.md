@@ -1,4 +1,4 @@
-# Fullstack Notion Clone: Next.js 13, React, Convex, TailwindCSS
+# NoteHive: Next.js 13, React, Convex, TailwindCSS
 
 Key Features:
 
@@ -25,10 +25,6 @@ Key Features:
 **Node version 18.x.x**
 
 ### Cloning the repository
-
-```shell
-git clone https://github.com/Davronov-Alimardon/notion-clone.git
-```
 
 ### Install packages
 
