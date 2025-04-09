@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://brief-bream-40.clerk.accounts.dev",
+      domain: "https://humble-alpaca-24.clerk.accounts.dev",
       applicationID: "convex",
     },
   ],

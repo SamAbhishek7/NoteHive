@@ -15,10 +15,10 @@ export const Heading = () => {
     <div className="max-w-3xl space-y-4">
       <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
         Your Ideas, Documents, & Plans. Unified. Welcome to{" "}
-        <span className="underline">Jotion</span>
+        <span className="underline">NoteHive</span>
       </h1>
       <h3 className="text-base sm:text-xl md:text-2xl font-medium">
-        Jotion is the connected workspace where <br />
+        NoteHive is the connected workspace where <br />
         better, faster work happens.
       </h3>
 
@@ -30,18 +30,16 @@ export const Heading = () => {
       {isAuthenticated && !isLoading && (
         <Button asChild>
           <Link href="/documents">
-            Enter Jotion
+            Enter NoteHive
             <ArrowRight className="h-4 w-4 ml-2" />
           </Link>
         </Button>
       )}
-      <h3 className="text-base font-mono text-violet-700 dark:text-violet-300 sm:text-4xl md:text-2xl font-bold">
-        Developed by (Alimardon Davronov)
-      </h3>
+  
       {!isAuthenticated && !isLoading && (
         <SignInButton mode="modal">
           <Button>
-            Get Jotion free
+            Get NoteHive free
             <ArrowRight className="h-4 w-4 ml-2" />
           </Button>
         </SignInButton>

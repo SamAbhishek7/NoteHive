@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { api } from "@/convex/_generated/api";
 
 import { IconPicker } from "./icon-picker";
+import { SummaryDialog } from "./summary-dialog";
 
 interface ToolbarProps {
   initialData: Doc<"documents">;
@@ -119,6 +120,9 @@ export const Toolbar = ({
             <ImageIcon className="h-4 w-4 mr-2" />
             Add cover
           </Button>
+        )}
+        {!preview && (
+          <SummaryDialog content={initialData.content || ""} />
         )}
       </div>
       {isEditing && !preview ? (
